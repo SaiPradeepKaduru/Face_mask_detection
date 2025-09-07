@@ -1,2 +1,2 @@
-# Dog_cat-Classification
-Machine Learning Algorithm which learn from setof images and classifies into different classes. 
+# Face_Mask_Detection
+Machine Learning Algorithm which learn from setof images and live detects Mask or No Mask. 
