@@ -1,58 +1,63 @@
-🧑‍⚕️ Face Mask Detection using OpenCV & Deep Learning
-📌 Project Overview
+# 🧑‍⚕️  **Face Mask Detection using OpenCV & Deep Learning**
+## 📌 Project Overview
 
-This project implements a real-time face mask detection system using:
+This project implements a **real-time** face mask detection system using:
 
-OpenCV for video-based face detection
+**OpenCV** for video-based face detection
 
-TensorFlow/Keras for deep learning model training
+**TensorFlow/Keras** for deep learning model training
 
-Jupyter Notebooks for experimentation & documentation
+**Jupyter Notebook** for experimentation & documentation
 
 The model classifies faces into two categories:
 
-✅ With Mask
+**✅ With Mask**
 
-❌ Without Mask
+**❌ Without Mask**
 
-📊 Dataset
+---
+
+## **📊 Dataset**
 
 The dataset consists of images of people with and without masks.
 
 You can use popular datasets like:
 
-Kaggle Face Mask Detection Dataset
+Kaggle Face Mask Detection Dataset Or your own custom dataset.
 
-Or your own custom dataset.
+---
 
-🚀 Usage
-1. Run Face Detection Notebook
-jupyter notebook Face_Detection_Video.ipynb
+## 🚀 **Usage**
+1. Run Face Detection jupyter notebook Face_Detection_Video.ipynb
 
-2. Run Video Detection with OpenCV
-jupyter notebook Video_based_detection_using_openCV.ipynb
+2. Run Video Detection with OpenCV jupyter notebook Video_based_detection_using_openCV.ipynb
 
-3. Use Pretrained Model
-from tensorflow.keras.models import load_model
+3. Use Pretrained Model from tensorflow.keras.models import load_model
 model = load_model("Mask_detector.keras")
 
-🛠️ Tech Stack
+---
 
-Python 3.8+
+## **🛠️ Tech Stack**
 
-TensorFlow / Keras
+1. Python 3.8+
 
-OpenCV
+2. TensorFlow / Keras
 
-NumPy, Pandas, Matplotlib
+3. OpenCV
 
-📈 Results
+4. NumPy, Pandas, Matplotlib
+
+---
+
+## **📈 Results**
 
 Achieved high accuracy in detecting masked vs. unmasked faces.
 
 Works in real-time with a webcam feed.
 
-📌 Future Improvements
+---
+
+## **📌 Future Improvements**
 
 Extend to detect incorrect mask usage.
 
